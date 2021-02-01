@@ -22,6 +22,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,h7,
 .navbar-default, .btn {
+
   font-family: 'Verdana', cursive;
   font-weight: 400;
 }
@@ -213,7 +214,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-    background: #ffffff;
+    background: #1c1c1c;
     border: none;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -841,6 +842,7 @@ footer p {
   .navbar-default {
     text-align: center;
     padding-top: 0px;
+    background-color: #1c1c1c;
   }
 
   .navbar-default .navbar-brand {
