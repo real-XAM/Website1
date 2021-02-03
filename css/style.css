@@ -73,10 +73,10 @@ hr {
 }
 
 .section-btn {
-  background-color: #000;
+  background-color: #ffffff;
   border: 2px solid transparent;
   border-radius: 100px;
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -355,8 +355,7 @@ a:hover, a:active, a:focus {
    About section
 -----------------------------------------*/
 
-#about img {
-  width: 100%;
+#about img {width: 100%;width: 100%
 }
 
 #about .about-thumb {
@@ -809,6 +808,7 @@ footer p {
 
   #about .about-thumb {
     margin-top: 62px;
+    margin-left: -200px;
   }
 
 }

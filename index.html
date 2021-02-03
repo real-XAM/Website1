@@ -30,6 +30,7 @@ http://www.templatemo.com/tm-492-app-starter
      <!-- Main css -->
      <link rel="stylesheet" href="css/style.css">
 
+     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -75,7 +76,7 @@ http://www.templatemo.com/tm-492-app-starter
      <!-- Home Section -->
 
      <section id="home" class="main">
-          <div class="overlay"></div>
+          <div class="overlay" style="align-items: center;"></div>
           <div class="container">
                <div class="row">
 
@@ -83,14 +84,13 @@ http://www.templatemo.com/tm-492-app-starter
                     </div>
 
 
-                    <div class="home-thumb">
-                         <h1 style=text-align:center; class="wow fadeInUp" data-wow-delay="0.6s">UTeachU
-                         </h1>
-                         <h4 style=text-align:center; class="wow fadeInUp" data-wow-delay="0.8s">Learn by yourself</h4>
-                    </div>
-               </div>
 
-          </div>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s" style="text-align: center; /* margin-left: -100 */ margin-right: 15px;">UTeachU</h1>
+                    <p class="wow fadeInUp" data-wow-delay="0.8s" style="text-align: center; align-items: center; margin-right: 15px;">Learn by yourself</p>
+
+
+
+               </div>
           </div>
      </section>
 
@@ -108,41 +108,19 @@ http://www.templatemo.com/tm-492-app-starter
                          </div>
                     </div>
 
-                    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+
+                    <div class="wow fadeInUp col-md-6 col-sm-12 style1" data-wow-delay="0.4s">
                          <h2>Lo que quieremos conseguir</h2>
                          <h3 class="wow fadeInUp" data-wow-delay="0.8s">Convencerte y enseñarte sobre la inversión en bolsa, ya que tiene muchos beneficios</h3>
-                         <p class="wow fadeInUp" data-wow-delay="0.4s">I don't know what to put here</p>
+                         <p class="wow fadeInUp" data-wow-delay="0.4s">Here we explain. Independencia financiera??? No tan dificil, vamos a exponer con las herramientas, internet, para todos, facil, corto, tu eres la persona que aprende... etc</p>
                     </div>
 
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                          <div class="about-thumb">
-                              <img src="images/team-img1.jpg" class="img-responsive" alt="Team">
-                              <div class="about-overlay">
-                                   <h3>Sandar Lynn</h3>
-                                   <h4>UI Designer</h4>
-                                   <ul class="social-icon">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                   </ul>
-                              </div>
+                              <img src="images/team-img1.jpg" class="img-responsive" alt="Team" style="width: 100%; max-width: 300px; margin-left: 200px; margin-right: 200px;">
                          </div>
                     </div>
 
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
-                         <div class="about-thumb">
-                              <img src="images/team-img2.jpg" class="img-responsive" alt="Team">
-                              <div class="about-overlay">
-                                   <h3>Candy </h3>
-                                   <h4>UX Specialist</h4>
-                                   <ul class="social-icon">
-                                        <li><a href="#" class="fa fa-pinterest"></a></li>
-                                        <li><a href="#" class="fa fa-behance"></a></li>
-                                        <li><a href="#" class="fa fa-google-plus"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                    </div>
 
                </div>
           </div>
@@ -156,8 +134,33 @@ http://www.templatemo.com/tm-492-app-starter
                <div class="row">
 
                     <div class="col-md-offset-2 col-md-8 col-sm-12">
-                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">Hemos creado un curso que es fácil de seguir para cualquier persona, tan como alguien completamente desconocido del tema o una persona que ya tiene más conocimientos<br></h2>
-                         <a href="Course/index.html" class="wow fadeInUp section-btn btn btn-success smoothScroll" data-wow-delay="0.8s">Learn More</a>
+                         <h4>
+                              <p class="wow fadeInUp" data-wow-delay="0.4s">Para acceder al curso porfavor contacte nos por correo para que consiga el codigo acceso. Es completamente gratuito (pss, the password is: Daa) As mail I put my spam mail for
+                                   now "xxaamm25@gmail.com"</p>
+                              <br>
+                         </h4>
+
+                         <a href="mailto:xxaamm25@gmail.com" class="wow fadeInUp section-btn btn btn-success smoothScroll" data-wow-delay="0.8s" style="margin-bottom: 24px;">Enviar correo</a><br>
+
+
+
+                         <p class="wow fadeInUp" data-wow-delay="0.4s">
+                              Introduzca la contrasseña:<br> <input id='password' type='text' /><br>
+                              <a href="Course/about.html" onclick="javascript:return validatePass()" </a>>Acceder al curso</a>
+                              <script src="js/jquery.js"></script>
+                              <script>
+                                   function validatePass(){
+                               if(document.getElementById('password').value == 'Daa'){
+                                      return true;
+                                    }else{
+                                       alert('wrong password!!');
+                                     return false;
+                                    }
+                                   }
+                              </script>
+                              <p />
+
+
                     </div>
 
                </div>
@@ -314,21 +317,18 @@ http://www.templatemo.com/tm-492-app-starter
                     <div class="col-md-offset-2 col-md-8 col-sm-12">
                          <div class="wow bounceIn section-title">
                               <h2>Contacta nos</h2>
-                              <p class="wow fadeInUp" data-wow-delay="0.5s">SI hay alguna queja, propuesta o duda. Porfavor envie nos un Correo electronico, estaremos en contacto con usted lo antes possible</p>
+                              <h3>
+                                   <p class="wow fadeInUp" data-wow-delay="0.5s">SI hay alguna queja, propuesta o duda. Porfavor envie nos un Correo electronico, estaremos en contacto con usted lo antes possible</p>
+                                   <a class="wow fadeInUp section-btn btn btn-success smoothScroll" data-wow-delay="0.8s" style="margin-bottom: 24px;" href="mailto:xxaamm25@gmail.com">Contactar</a><br>
+                              </h3>
                          </div>
                          <div class="wow fadeInUp newsletter-form" data-wow-delay="0.8s">
-                              <form action="#" method="post">
-                                   <div class="col-md-8 col-sm-7">
-                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email here">
-                                   </div>
-                                   <div class="col-md-4 col-sm-5">
-                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send Newsletter">
-                                   </div>
-                              </form>
                          </div>
+                         </form>
                     </div>
-
                </div>
+
+          </div>
           </div>
      </section>
 
@@ -389,7 +389,7 @@ http://www.templatemo.com/tm-492-app-starter
 
      <!-- SCRIPTS -->
 
-     <script src="js/jquery.js"></script>
+
      <script src="js/bootstrap.min.js"></script>
      <script src="js/jquery.magnific-popup.min.js"></script>
      <script src="js/magnific-popup-options.js"></script>
