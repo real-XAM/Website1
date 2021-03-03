@@ -103,7 +103,7 @@ html{
 }
 
 a {
-  color: #000008;
+  color: #FFFFFF;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
@@ -453,7 +453,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #535bd4;
+  background: #47CBC4;
 }
 
 #pricing .pricing-plan {

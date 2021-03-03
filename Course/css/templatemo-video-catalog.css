@@ -16,6 +16,9 @@ body {
     line-height: 2em;
     overflow-x: hidden;
     background-color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   color: black;
 }
 
@@ -176,7 +179,7 @@ h2, p { color: #666666; }
 
 .tm-btn-cta {
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #222222;
 }
 
 .tm-btn-cta:before { font-size: 180%; }
